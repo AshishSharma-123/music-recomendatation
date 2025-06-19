@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #1e1e2f;
+  color: #fff;
+}
+
+.container {
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.input-section {
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 250px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1em;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background: #1db954;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #1ed760;
+}
+
+.recommendation-card {
+  background: #2a2a3d;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
